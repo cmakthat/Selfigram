@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E004941F1FA1890900C1EEE5 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E004941E1FA1890900C1EEE5 /* FeedTableViewController.swift */; };
 		E025A8B31FA157A700E2B9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025A8B21FA157A700E2B9E1 /* AppDelegate.swift */; };
 		E025A8B51FA157A700E2B9E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025A8B41FA157A700E2B9E1 /* ViewController.swift */; };
 		E025A8B81FA157A700E2B9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E025A8B61FA157A700E2B9E1 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E004941E1FA1890900C1EEE5 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		E025A8AF1FA157A700E2B9E1 /* Selfigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E025A8B21FA157A700E2B9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E025A8B41FA157A700E2B9E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				E0913FA51FA1681E001CBA96 /* ProfileViewController.swift */,
 				E0F5587E1FA1818300218548 /* User.swift */,
 				E0F558801FA181E700218548 /* Post.swift */,
+				E004941E1FA1890900C1EEE5 /* FeedTableViewController.swift */,
 			);
 			path = Selfigram;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F5587F1FA1818300218548 /* User.swift in Sources */,
+				E004941F1FA1890900C1EEE5 /* FeedTableViewController.swift in Sources */,
 				E0913FA61FA1681E001CBA96 /* ProfileViewController.swift in Sources */,
 				E025A8B51FA157A700E2B9E1 /* ViewController.swift in Sources */,
 				E025A8B31FA157A700E2B9E1 /* AppDelegate.swift in Sources */,
