@@ -14,6 +14,7 @@
 		E025A8BD1FA157A700E2B9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E025A8BB1FA157A700E2B9E1 /* LaunchScreen.storyboard */; };
 		E025A8C81FA157A700E2B9E1 /* SelfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025A8C71FA157A700E2B9E1 /* SelfigramTests.swift */; };
 		E025A8D31FA157A700E2B9E1 /* SelfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025A8D21FA157A700E2B9E1 /* SelfigramUITests.swift */; };
+		E0913FA61FA1681E001CBA96 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0913FA51FA1681E001CBA96 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E025A8CE1FA157A700E2B9E1 /* SelfigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E025A8D21FA157A700E2B9E1 /* SelfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfigramUITests.swift; sourceTree = "<group>"; };
 		E025A8D41FA157A700E2B9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0913FA51FA1681E001CBA96 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E025A8B91FA157A700E2B9E1 /* Assets.xcassets */,
 				E025A8BB1FA157A700E2B9E1 /* LaunchScreen.storyboard */,
 				E025A8BE1FA157A700E2B9E1 /* Info.plist */,
+				E0913FA51FA1681E001CBA96 /* ProfileViewController.swift */,
 			);
 			path = Selfigram;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0913FA61FA1681E001CBA96 /* ProfileViewController.swift in Sources */,
 				E025A8B51FA157A700E2B9E1 /* ViewController.swift in Sources */,
 				E025A8B31FA157A700E2B9E1 /* AppDelegate.swift in Sources */,
 			);
