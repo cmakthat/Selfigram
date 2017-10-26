@@ -15,6 +15,7 @@ class SelfieCell: UITableViewCell {
     @IBOutlet var usernameLabel: UILabel!
     @IBOutlet var commentLabel: UILabel!
     @IBOutlet var likeButton: UIButton!
+    @IBOutlet var heartAnimationView: UIImageView!
     var post:Post? {
         
         // didSet is run when we set this variable in FeedViewController
@@ -138,6 +139,27 @@ class SelfieCell: UITableViewCell {
                 
             }
         }
+    }
+    
+    func tapAnimation() {
+        
+        // set heartAnimationView to be very tiny and not hidden
+        self.heartAnimationView.isHidden = false
+        self.heartAnimationView.transform = CGAffineTransform(scaleX: 0, y: 0)
+        
+        //animation for 1 second, no delay
+        UIView.animate(withDuration: 1.0, delay: 0, options: [], animations: { () -> Void in
+            
+            // during our animation change heartAnimationView to be 3X what it is on storyboard
+            self.heartAnimationView.transform = CGAffineTransform(scaleX: 3, y: 3)
+            
+        }) { (success) -> Void in
+            
+            // when animation is complete set heartAnimationView to be hidden
+            self.heartAnimationView.isHidden = true
+        }
+
+        likeButtonClicked(likeButton)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
